@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Education</string>
+    <string name="username">UserName</string>
+    <string name="passward">Passward</string>
+    <string name="login">LogIn</string>
+    <string name="remember">remember me</string>
+    <string name="link_create">No aCcount yet?Create One </string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+
+    <!---sign up -->
+    <string name="firstname">firstname</string>
+    <string name="secondname">secondname</string>
+    <string name="usernamee">username</string>
+    <string name="passwardd">passward</string>
+    <string name="already">has already account??go log in</string>
+    <string name="browse">browser</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="phone">phone</string>
+    <string name="title_activity_sign_up2">SignUp2</string>
+    <string name="address">address</string>
+    <string name="title_activity_doc_or_student">DocOrStudent</string>
+
+
+    <string name="ip">192.168.1.9</string>
+    <string name="title_activity_login_wz_doc">LoginWzDoc</string>
+    <string name="title_activity_student_main">StudentMain</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_detail_cources">DetailCources</string>
+    <string name="title_activity_detail__assiement">Detail_Assiement</string>
+    <string name="title_activity_quizzer">Quizzer</string>
+    <string name="title_activity_doctor_main">DoctorMainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editdactra">editProfle</string>
+    <string name="title_activity_edit_profile_doc">EditProfileDoc</string>
+    <string name="title_activity_detail_course_for_doctor">DetailCourseForDoctor</string>
+    <string name="editcourse">edit course</string>
+    <string name="insetassiment">insertassiement</string>
+    <string name="title_activity_edit_course">EditCourse</string>
+    <string name="name_course_edit">name</string>
+    <string name="number_course">number</string>
+    <string name="point_course">point</string>
+    <string name="semester_course">semester</string>
+    <string name="title_activity_insert_course">InsertCourse</string>
+    <string name="title_activity_insert_assiement">InsertAssiement</string>
+    <string name="title_activity_assiment_detail_for_doctor">AssimentDetailForDoctor</string>
+    <string name="title_activity_add_quiz">AddQuiz</string>
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="vna.example.com.education.AssimentsAndcourceAndQuiz.AddQuiz">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="question"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/answera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="answera"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/answerb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="answerb"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <EditText
+            android:id="@+id/answerc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="answerc"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/answerd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="answerd"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/correctanswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="correct answer"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addquestion"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:text="Submit"
+            android:background="@drawable/button_style"
+            android:layout_margin="15dp"
+            ></android.support.v7.widget.AppCompatButton>
+    </LinearLayout>
+</LinearLayout>

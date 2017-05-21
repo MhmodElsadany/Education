@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#E1F5FE"
+    tools:context="vna.example.com.education.AssimentsAndcourceAndQuiz.DetailCourseForDoctor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Name:"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/course_name_detail"
+            android:text="Name"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            />
+
+        <!--
+   -->
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="2dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Instractor:"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"
+
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/instractot_detail"
+            android:text="instractor"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+
+
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="2dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="number:"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"
+
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/num_detail"
+            android:text="2"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="point:"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"
+
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/point_detail"
+            android:text="10"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="semster:"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"
+
+
+            />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/semster_detail"
+            android:text="first"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+
+
+            />
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="10dp"
+        android:text="assiements:"
+        android:layout_marginLeft="20dp"
+        android:textSize="23dp"
+        android:id="@+id/kk"
+
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/listassinments"
+        ></ListView>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bttn_add"
+        android:id="@+id/insert_btn_assiment"
+        android:background="@drawable/button_style"
+        />
+    </LinearLayout>

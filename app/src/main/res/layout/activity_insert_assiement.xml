@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="vna.example.com.education.AssimentsAndcourceAndQuiz.InsertAssiement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/instruction_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="instruction"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/description_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="description"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <EditText
+                android:id="@+id/starttime_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="starttime"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <EditText
+                android:id="@+id/endtime_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="endtime"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/assim_sub_insert"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:text="Submit"
+            android:background="@drawable/button_style"
+            android:layout_margin="15dp"
+            ></android.support.v7.widget.AppCompatButton>
+    </LinearLayout>
+
+</LinearLayout>

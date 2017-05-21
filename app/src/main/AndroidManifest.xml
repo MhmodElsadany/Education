@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vna.example.com.education">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login_signup_Spcify.DocOrStudent"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_signup_Spcify.LoginWzStudent" />
+        <activity
+            android:name=".Login_signup_Spcify.SignUpStudent"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".Login_signup_Spcify.SignUpDoc"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".Login_signup_Spcify.LoginWzDoc"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".StudentNdDoctorMain.StudentMain"
+            android:label="@string/title_activity_student_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentNdDoctorMain.EditProfileStudent"
+            android:label="@string/title_activity_edit_profile"
+            />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.DetailCources"
+            android:label="@string/title_activity_detail_cources"
+             />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.Detail_Assiement"
+            android:label="@string/title_activity_detail__assiement"
+             />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.Quizzer"
+            android:label="Quizer"
+             />
+        <activity
+            android:name=".StudentNdDoctorMain.DoctorMainActivity"
+            android:label="Education"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentNdDoctorMain.EditProfileDoc"
+            android:label="@string/title_activity_edit_profile_doc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.DetailCourseForDoctor"
+            android:label="detail_course"
+             />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.EditCourse"
+            android:label="@string/title_activity_edit_course"
+            />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.InsertCourse"
+            android:label="@string/title_activity_insert_course"
+         />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.InsertAssiement"
+            android:label="@string/title_activity_insert_assiement"
+             />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.AssimentDetailForDoctor"
+            android:label="assiment_detail"
+           />
+        <activity
+            android:name=".AssimentsAndcourceAndQuiz.AddQuiz"
+            android:label="@string/title_activity_add_quiz"
+            ></activity>
+    </application>
+
+</manifest>

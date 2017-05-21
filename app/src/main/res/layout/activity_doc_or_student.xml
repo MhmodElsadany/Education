@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="vna.example.com.education.Login_signup_Spcify.DocOrStudent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/welcome"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@drawable/y"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/studordoc"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:id="@+id/student_to_login"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:background="@drawable/button_style"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor"
+            android:id="@+id/doc_to_login"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_style"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

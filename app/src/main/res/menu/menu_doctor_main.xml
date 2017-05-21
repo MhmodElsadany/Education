@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="vna.example.com.education.StudentNdDoctorMain.DoctorMainActivity">
+
+    <item
+        android:id="@+id/editdactra"
+        android:orderInCategory="100"
+        android:title="@string/editdactra"
+        app:showAsAction="never" />
+</menu>

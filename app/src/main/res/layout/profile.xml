@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#81D4FA"
+
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#81D4FA"
+    android:layout_gravity="center"
+    android:text="Mahmoud"
+    android:id="@+id/nameprofile"
+
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#81D4FA"
+            android:layout_gravity="center"
+            android:text="elsadany"
+            android:id="@+id/secondnameprofile"
+            android:layout_marginTop="20dp"
+
+            />
+</FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneprofile"
+        android:text="01221738737"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameprofile"
+        android:text="username"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
+</LinearLayout>
